@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <body>
+        <div class="antialiased bg-gray-50 dark:bg-gray-900">
+            <nav class="bg-white border-b border-gray-200 px-4 py-2.5 dark:bg-gray-950 dark:border-gray-900 fixed left-0 right-0 top-0 z-50">
+              <div class="flex flex-wrap justify-between items-center">
+                <div class="flex justify-start items-center">
+
+                <!--Logo site-->
+                  <a href="#" class="flex items-center justify-between mr-4">
+                    <img
+                      src="./imgs/logo.jpg"
+                      class="mr-3 h-8 rounded-full"
+                      alt="Logo"
+                    />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ckezzawym</span>
+                  </a>
+                <!--Logo site-->
+
+                </div>
+
+                <!--Carrinho-->
+                <div class="flex items-center lg:order-2">
+                  <button
+                    type="button"
+                    data-dropdown-toggle="apps-dropdown"
+                    class="p-2 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
+                    <img src="./imgs/carrinho-white.png" alt="">
+                  </button>
+                </div>
+                <!--Carrinho-->
+
+              </div>
+            </nav>
+            
+            <div class="bg-white">
+                <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                  <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                    <div class="group relative">
+                      <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-400 lg:aspect-none group-hover:opacity-75 lg:h-80 ">
+                        <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <a href="#">
+                              <span aria-hidden="true" class="absolute inset-0"></span>
+                              Blusa
+                            </a>
+                          </h3>
+                          <p class="mt-1 text-sm text-gray-500">preto</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">R$90</p>
+                      </div>
+                    </div>
+                    <div class="group relative">
+                        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-400 lg:aspect-none group-hover:opacity-75 lg:h-80 ">
+                          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                        </div>
+                        <div class="mt-4 flex justify-between">
+                          <div>
+                            <h3 class="text-sm text-gray-700">
+                              <a href="#">
+                                <span aria-hidden="true" class="absolute inset-0"></span>
+                                Basic Tee
+                              </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Black</p>
+                          </div>
+                          <p class="text-sm font-medium text-gray-900">$35</p>
+                        </div>
+                      </div>
+              
+                    <!-- More products... -->
+                  </div>
+                </div>
+              </div>
+    </body>
+</html>
